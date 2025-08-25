@@ -152,6 +152,15 @@ local is_monolingual = false
 
 this.toggle_monolingual_subtitles = function ()
     is_monolingual = not is_monolingual
+
+    -- 切换模式时，显示当前状态
+    local sub_status
+    if is_monolingual then
+        sub_status = "不处理"
+    else
+        sub_status = "双语→日语"
+    end
+    this.notify(string.format("双语字幕模式：%s", sub_status))
 end
 
 this.get_japanese_from_subtext = function(text)
