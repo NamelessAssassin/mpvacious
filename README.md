@@ -2,6 +2,16 @@
 <img src="https://user-images.githubusercontent.com/69171671/117440218-4ae26800-af23-11eb-87b4-1d9026fc953f.png"/>
 </p>
 
+# 说明
+
+`Alt + m`切换双语字幕为模式单语/双语，对于双语字幕一定程度可以做到输出日文，其他与官方相同。
+
+该功能使用了 Antimony 提供的代码。
+
+额外增加了切换模式时的提示。
+
+应该不需要再做什么额外的改动了。
+
 # mpvacious
 
 [![AUR](https://img.shields.io/badge/AUR-install-blue.svg)](https://aur.archlinux.org/packages/mpv-mpvacious/)
